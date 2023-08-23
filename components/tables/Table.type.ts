@@ -1,5 +1,8 @@
-export default interface IForm {
-  onSubmit?: () => void;
+export default interface ITable {
+  id: string;
+  data: {};
+  columns: {};
+  headers: {};
   isLoading?: boolean;
   isError?: boolean;
   error?: {
