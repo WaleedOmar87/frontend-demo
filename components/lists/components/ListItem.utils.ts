@@ -1,0 +1,3 @@
+function filterItems() {
+  // ... do something
+}
